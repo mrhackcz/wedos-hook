@@ -25,3 +25,6 @@ Download `wedos-hook` and place it in the same location as dehydrated. Open the 
 - `wpass="P4SSW0RD"`
 
 That's all, finally you can run `dehydrated -c -f /etc/dehydrated/config`, add it to the crontab and get Let's Encrypt certificate with dns-01 challenge.
+
+## JSON ?
+Yes, I know. Method used in the script to send "JSON" request to wedos WAPI is not a JSON. But thats not my fault, and it is Wedos's problem. If they said "send us a json request" it means - "Send us a plaintext request, where you fill a json to the 'request' variable". :--)) Hosting masters.
