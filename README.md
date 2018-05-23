@@ -6,12 +6,12 @@ Connect the Wedos JSON WAPI with Let's Encrypt ACME dns-01 challenge via Dehydra
 Hook is configured for localy deploying certificates to $BASEDIR/certs, if you want to deploy certificates with rsync,ssh or another way, just edit `deploy_cert` function.
 
 ## Requirements
-[Wedos](https://hosting.wedos.com/) account with configured WAPI (more in Configuration)
-[dehydrated ACME client script](https://github.com/lukas2511/dehydrated)
-[jq](https://stedolan.github.io/jq/)
-curl
-grep
-dig
+- [Wedos](https://hosting.wedos.com/) account with configured WAPI (more in Configuration)
+- [dehydrated ACME client script](https://github.com/lukas2511/dehydrated)
+- [jq](https://stedolan.github.io/jq/)
+- curl
+- grep
+- dig
 
 ## Configuration
 Download and [configure dehydrated per the documentation](https://github.com/lukas2511/dehydrated/blob/master/README.md#getting-started). And add to the config file following options:
