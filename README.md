@@ -16,7 +16,7 @@ Hook is configured for localy deploying certificates to $BASEDIR/certs, if you w
 ## Configuration
 Download and [configure dehydrated per the documentation](https://github.com/lukas2511/dehydrated/blob/master/README.md#getting-started). And add to the config file following options:
 - `CHALLENGETYPE="dns-01"`
-- `HOOK="${BASEDIR}/wedos_api.sh"`
+- `HOOK="${BASEDIR}/wedos-hook.sh"`
 
 Login to the wedos Customer administration, open Customer tab and click to WAPI interface. Activate WAPI, setup allowed IP adresses and choose password, then save. Preferred protocol has to be JSON !
 
